@@ -1,9 +1,9 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
-    "buildCommand": "npm install --prefix ./whirlpool-dashboard --legacy-peer-deps && npm run build --prefix ./whirlpool-dashboard",
+    "buildCommand": "npm run build -w whirlpool-dashboard",
     "outputDirectory": "whirlpool-dashboard/dist",
-    "installCommand": "npm install --prefix ./whirlpool-dashboard --legacy-peer-deps",
-    "framework": null,
+    "installCommand": "npm install --legacy-peer-deps",
+    "framework": "vite",
     "rewrites": [
         {
             "source": "/(.*)",
