@@ -141,7 +141,7 @@ export const api = {
 
 // --- Trading API (separate backend on port 3002) ---
 
-const TRADING_API_URL = 'https://yieldsense-trading-api-a8c2.onrender.com';
+const TRADING_API_URL = import.meta.env.VITE_TRADING_API_URL || 'https://yieldsense-trading-api-a8c2.onrender.com';
 
 export interface SwapQuote {
     route: 'JUPITER' | 'ORCA';
@@ -201,7 +201,7 @@ export const tradingApi = {
 // ==========================
 // ML API CLIENT
 // ==========================
-const ML_API_URL = 'http://127.0.0.1:8000';
+const ML_API_URL = import.meta.env.VITE_ML_API_URL || 'http://127.0.0.1:8000';
 
 export interface MLQuickAnalysis {
     success: boolean;
