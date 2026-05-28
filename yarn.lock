@@ -1338,10 +1338,10 @@
     "@codama/nodes" "1.6.0"
     "@codama/visitors-core" "1.6.0"
 
-"@codama/renderers-js@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@codama/renderers-js/-/renderers-js-2.1.0.tgz#f3d5fcc2ef132bac0821e5818bf48991bbca9f43"
-  integrity sha512-Zs9avEFb1+Y4GDPIBTEv/bhHCdjRkAkisWSqNo9edxQyfPj4GzV+0/FtE0AfR+yFkxQVHANlaEpo2dtdS0UPbA==
+"@codama/renderers-js@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@codama/renderers-js/-/renderers-js-2.2.0.tgz#bdfd2658ac1231ce810f5bc089f7a0355aa83de9"
+  integrity sha512-/GWVnB329kMkeqlOqX+NWQAmd1k6yybVOp7C5X+LEvrZ2A5w1saQwWFbBMCq/EQPqnFU+CRFoG/+7KubAEa73Q==
   dependencies:
     "@codama/errors" "^1.4.4"
     "@codama/nodes" "^1.4.4"
@@ -1351,10 +1351,10 @@
     prettier "^3.8.1"
     semver "^7.7.3"
 
-"@codama/renderers-rust@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@codama/renderers-rust/-/renderers-rust-3.0.0.tgz#bac7ad0e1bdcacb9f731800addf03e2e06804e3b"
-  integrity sha512-ompxoDfZGF2OtCDoSHfG+hwbsmTgzesFx7LwQMyNxiBRIHL23b6ct61CNABho5TQe/svsh679USmeUCtURHxMQ==
+"@codama/renderers-rust@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@codama/renderers-rust/-/renderers-rust-3.1.0.tgz#42845575c3c6de4e120938cb238201c21d1bb7aa"
+  integrity sha512-E/GSUCuiIpFj+ij3NbduH/h3sNDo39Bq14vj2atxdbbrPmu4clWvIEjXtbmP03qhudH73TxbYO8dWg/NwRi18A==
   dependencies:
     "@codama/errors" "^1.5.0"
     "@codama/nodes" "^1.5.0"
