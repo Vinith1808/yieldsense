@@ -7706,25 +7706,25 @@
   dependencies:
     "@wallet-standard/base" "^1.1.0"
 
-"@wallet-standard/react-core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@wallet-standard/react-core/-/react-core-1.0.1.tgz"
-  integrity sha512-g+vZaLlAGlYMwZEoKsmjjI5qz1D8P3FF1aqiI3WLooWOVk55Nszbpk01QCbIFdIMF0UDhxia2FU667TCv509iw==
+"@wallet-standard/react-core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/react-core/-/react-core-1.0.2.tgz#35d7d205518668b1948f59e400e0b62e9c992e3c"
+  integrity sha512-FKs0lYzirNsRI6P/MkwjxTOYpRo+vkTi7rabKUaYBaJDelVF5WkA7aDhFI9KILOkTKyRxpnZr1GOg953OG/DEA==
   dependencies:
     "@wallet-standard/app" "^1.1.0"
     "@wallet-standard/base" "^1.1.0"
     "@wallet-standard/errors" "^0.1.1"
     "@wallet-standard/experimental-features" "^0.2.0"
     "@wallet-standard/features" "^1.1.0"
-    "@wallet-standard/ui" "^1.0.1"
-    "@wallet-standard/ui-registry" "^1.0.1"
+    "@wallet-standard/ui" "^1.0.2"
+    "@wallet-standard/ui-registry" "^1.1.0"
 
-"@wallet-standard/react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/@wallet-standard/react/-/react-1.0.1.tgz"
-  integrity sha512-StpPv234R94MmJCCUZurQvQSsX6Xe1eOd2lNgwVonvSVdPqCNVS/haVpdrBMx0wX1Ut24X77qyBLP7SGxK5OUg==
+"@wallet-standard/react@^1.0.1", "@wallet-standard/react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/react/-/react-1.0.2.tgz#18b130bf30d6f62da2800f52873eb76c452659c3"
+  integrity sha512-Q/JWVA9ZXh07g7yd4bVZ92ujiqQ468PKP5IECZlaI/UfziU9meZOFZp80fu6GUGwKmWpiCKiFuBFHKdswqypgg==
   dependencies:
-    "@wallet-standard/react-core" "^1.0.1"
+    "@wallet-standard/react-core" "^1.0.2"
 
 "@wallet-standard/ui-compare@^1.0.1":
   version "1.0.1"
@@ -7734,6 +7734,15 @@
     "@wallet-standard/base" "1.1.0"
     "@wallet-standard/ui-core" "1.0.0"
     "@wallet-standard/ui-registry" "1.0.1"
+
+"@wallet-standard/ui-compare@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/ui-compare/-/ui-compare-1.0.2.tgz#8b3040ded11b4d75e0453b34ca4db50d8d35b6a5"
+  integrity sha512-oEjOr6qFGTFUO29ujVotMGStBtZLJeq27MFiDdDBqzvZ6R+EYQGhUTahogjhnGAUKf6n1d9+RehTjhHwpVbdbA==
+  dependencies:
+    "@wallet-standard/base" "1.1.0"
+    "@wallet-standard/ui-core" "1.0.0"
+    "@wallet-standard/ui-registry" "1.1.0"
 
 "@wallet-standard/ui-core@1.0.0", "@wallet-standard/ui-core@^1.0.0":
   version "1.0.0"
@@ -7752,10 +7761,29 @@
     "@wallet-standard/ui-core" "1.0.0"
     "@wallet-standard/ui-registry" "1.0.1"
 
+"@wallet-standard/ui-features@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/ui-features/-/ui-features-1.0.2.tgz#42b15f1ff1a0516d0ce5d13f1aef0843a6054641"
+  integrity sha512-2CkY5RNq/U50n96i02lk/eyWa/5jzD7T0oLD6La/8OR2rc3HRRlMT10wkwnKiIHX4Ik/OBPaenxA178V/Yiyaw==
+  dependencies:
+    "@wallet-standard/base" "1.1.0"
+    "@wallet-standard/errors" "0.1.1"
+    "@wallet-standard/ui-core" "1.0.0"
+    "@wallet-standard/ui-registry" "1.1.0"
+
 "@wallet-standard/ui-registry@1.0.1", "@wallet-standard/ui-registry@^1.0.1":
   version "1.0.1"
   resolved "https://registry.npmjs.org/@wallet-standard/ui-registry/-/ui-registry-1.0.1.tgz"
   integrity sha512-+SeXEwSoyqEWv9B6JLxRioRlgN5ksSFObZMf+XKm2U+vwmc/mfm43I8zw5wvGBpubzmywbe2eejd5k/snyx+uA==
+  dependencies:
+    "@wallet-standard/base" "1.1.0"
+    "@wallet-standard/errors" "0.1.1"
+    "@wallet-standard/ui-core" "1.0.0"
+
+"@wallet-standard/ui-registry@1.1.0", "@wallet-standard/ui-registry@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/ui-registry/-/ui-registry-1.1.0.tgz#968c86e9fce591773d304eaade6df178745deb55"
+  integrity sha512-0OOESk5pplFrkdgDM0CjRIQLXszNqkXt64IZrQLEjqTrUXcatvAMsV9dFI2uDPpWnmjCFWPH/ASQLPg3Nbcwjw==
   dependencies:
     "@wallet-standard/base" "1.1.0"
     "@wallet-standard/errors" "0.1.1"
@@ -7769,6 +7797,15 @@
     "@wallet-standard/ui-compare" "^1.0.1"
     "@wallet-standard/ui-core" "^1.0.0"
     "@wallet-standard/ui-features" "^1.0.1"
+
+"@wallet-standard/ui@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@wallet-standard/ui/-/ui-1.0.2.tgz#7ae7aee04c5a8a56852e5b715f32ae4262332aac"
+  integrity sha512-XyL3lUTrLRUZHOSHS8Vahh6X0ch/n/OgHwTBYvsadAJE1tyY62klshJHVM6NvFiXOn9/Pkz0JvSIhhh0Copudg==
+  dependencies:
+    "@wallet-standard/ui-compare" "^1.0.2"
+    "@wallet-standard/ui-core" "^1.0.0"
+    "@wallet-standard/ui-features" "^1.0.2"
 
 "@wallet-standard/wallet@^1.1.0":
   version "1.1.0"
@@ -19000,7 +19037,7 @@ yallist@^4.0.0:
   resolved "https://registry.npmjs.org/yallist/-/yallist-4.0.0.tgz"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^2.6.0, yaml@^2.8.1, yaml@^2.8.3:
+yaml@^2.6.0, yaml@^2.8.3:
   version "2.8.3"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.8.3.tgz#a0d6bd2efb3dd03c59370223701834e60409bd7d"
   integrity sha512-AvbaCLOO2Otw/lW5bmh9d/WEdcDFdQp2Z2ZUH3pX9U2ihyUY0nvLv7J6TrWowklRGPYbB/IuIMfYgxaCPg5Bpg==
